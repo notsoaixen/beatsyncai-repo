@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  html,
+  body,
+  #root {
+    height: 100%;
+    background-color: #0a0d0c;
+    color: #f3f7f4;
+    font-family: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+    overscroll-behavior: none;
+  }
+}
+
+.font-mono-tnum {
+  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom sleek studio scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0d0c;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #28332e;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3a4a42;
+}

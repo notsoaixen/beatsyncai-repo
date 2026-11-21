@@ -1,0 +1,6 @@
+{
+  "name": "BeatSync AI",
+  "description": "AI-powered beat-marking studio for anime and video editors with real-time timeline, image patterning, MP4 export, and Alight Motion XML export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

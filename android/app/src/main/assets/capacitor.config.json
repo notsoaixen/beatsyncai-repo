@@ -1,0 +1,8 @@
+{
+	"appId": "com.beatsync.ai",
+	"appName": "BeatSync AI",
+	"webDir": "dist",
+	"android": {
+		"allowMixedContent": true
+	}
+}
